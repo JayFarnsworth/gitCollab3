@@ -1,15 +1,23 @@
+body {
+  color: purple;
+  padding: 3rem;
+}
 header {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;
   align-items: end;
-  border-bottom: .3rem solid darkgrey;
+  border-bottom: 0.3rem solid darkgrey;
 }
 
 h1 {
   grid-column: 1/span 2;
   margin-left: 1rem;
   color: orange;
+  background-color: red;
+}
+p {
+  font-family: cursive;
 }
 
 nav {
@@ -19,5 +27,5 @@ nav {
 nav a {
   text-decoration: none;
   color: darkgrey;
-  font-size:
+  font-size: ;
 }
